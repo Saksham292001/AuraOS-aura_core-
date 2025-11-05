@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aura_core"
+version = "0.1.0"
+description = "AuraOS AI Core for task automation and system management."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "ollama",
+    "requests",
+    "beautifulsoup4",
+    "ddgs",
+    "python-docx",
+    "python-pptx",
+    "openpyxl",
+    "pypdf2",
+]
+
+[project.scripts]
+# This line creates the "aura" command in your terminal
+# It points to the 'main' function inside the 'cli.py' file
+aura = "aura_core.cli:main"
