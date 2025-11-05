@@ -1,5 +1,3 @@
-Here is a complete README.md file for your aura_core project, designed to impress on a GitHub profile, in cold mails, or on a resume. It highlights the advanced ReAct architecture and the professional-grade capabilities you've built.
-
 AuraOS Core (Aura)
 AuraOS Core is a local-first, AI-driven automation engine. It uses a "Foreman" (a ReAct agent powered by a local LLM like Ollama) to understand high-level natural language goals, create dynamic plans, and delegate tasks to a suite of specialized Python "Apprentices."
 
