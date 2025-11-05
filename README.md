@@ -1,4 +1,5 @@
-AuraOS Core (Aura)
+# AuraOS Core (Aura)
+
 AuraOS Core is a local-first, AI-driven automation engine. It uses a "Foreman" (a ReAct agent powered by a local LLM like Ollama) to understand high-level natural language goals, create dynamic plans, and delegate tasks to a suite of specialized Python "Apprentices."
 
 This is not just a simple script; it's an autonomous agent framework that can reason, observe, and execute complex, multi-step workflows like data analysis, report generation, and system management.
